@@ -1,6 +1,7 @@
 ################################################################
 ##  Control
 ################################################################
+
 ## Booleans and Logical Operations
 ##
 ##  - Booleans are data that have values Ture or False.
@@ -8,8 +9,10 @@
 ##  - Official name: bool
 
 
+
 ## Relational operators
 ##  <, <=, >, >=, ==, !=
+
 
 
 ##  == check whether two names refers to objects that have same value
@@ -17,10 +20,18 @@
 
 
 
-## Chained comparison
-
 
 ## Floating-point number comparison
+
+
+
+## Logical opeerators
+##  - and , or, not
+
+
+
+## Chained comparison
+
 
 
 ## True and False
@@ -28,11 +39,12 @@
 ##  - Every type has an empty value, this is equivalent to False.
 ##  - Every other value is equivalent to True.
 ##  - False value in various type:
-##      => o in int
+##      => 0 in int
 ##      => 0.0 in float
 ##      => "" in str
 
 ## Short-Circuiting
+
 
 
 ## "and" has higher precedence than "or"
@@ -47,7 +59,10 @@
 ##      suite (statements)
 
 
+
 ##  another example
+
+
 
 
 ##  Selection with if..else
@@ -56,6 +71,7 @@
 ##       suite 1 (True)
 ##    else:
 ##       suite 2 (False)
+
 
 
 
@@ -84,9 +100,11 @@
 
 
 
+
 ##  Factorial example
 ##     n! =  1            when n=0
 ##        =(n-1)!*n       whne n>0
+
 
 
 
@@ -123,12 +141,14 @@
 
 
 
+
 ##  Nested while loop
 ##   - A while loop inside another while loop
 
 ##   - It is important when you initialize the variable (inner=0)
 ##   - If break were executed in the inner loop, it would only break
 ##     out that particular suite, namely back to the outer loop suite.
+
 
 
 
@@ -149,10 +169,13 @@
 ## <1> Try to generate all possible digits for 3-digit => A, B, C
 ##     - Make sure they are unique
 
+
     
 ## <2> Apply the idea to solve the problem
 
 
+    
+    
     
     
 ##################################################################
@@ -162,28 +185,4 @@
 ##  - But for multiples of three print “Fizz” instead of the number and
 ##      for the multiples of five print “Buzz”.
 ##  - For numbers which are multiples of both three and five print “FizzBuzz”
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
