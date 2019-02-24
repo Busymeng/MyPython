@@ -136,20 +136,25 @@
 ## work with math operators
 
 
+####################################################################
+## Additional Arithmetic operators
+'''
+    > Exponentiation: **
+    > Modulo: % (get the remainder)
+    > divmod():  divmod(x,y) ==> x//y, x%y
+    > Augumented Assignment: +=, -=, *=, /=, //=, %=
+         x = x + 1  ==>  x += 1
+         x = x - 1  ==>  x -= 1
+         x = x * 12*3  ==> x *= 12*3
+'''
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+####################################################################
+## Input and type conversion
+'''
+    > input() always returns the user's input as a string
+    > Type conversion: int(), float(), str()
+    > eval() : evaluating strings
+'''
