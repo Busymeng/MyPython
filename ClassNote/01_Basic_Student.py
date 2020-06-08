@@ -62,14 +62,6 @@
 
 
 
-################################################################
-## Namespace
-"""
-   * Assignment creates a data structure called a namespace.
-          my_int = 7  ==>  Name   -> my_int
-                           Value  -> 7
-"""
-
 
 ################################################################
 ## Python name rules
@@ -89,7 +81,7 @@
 
 ################################################################
 ## Math operators
-##  +, -, *, /, 
+##  +, -, *, /, Exponentiation: **
 
 
 
@@ -139,8 +131,6 @@
 ####################################################################
 ## Additional Arithmetic operators
 '''
-    > Exponentiation: **
-    > Modulo: % (get the remainder)
     > divmod():  divmod(x,y) ==> x//y, x%y
     > Augumented Assignment: +=, -=, *=, /=, //=, %=
          x = x + 1  ==>  x += 1
