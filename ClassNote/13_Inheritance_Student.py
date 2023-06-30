@@ -13,7 +13,7 @@
    * When we make a class, we indicate the class parent class in parenthesis.
 """
 
-          
+
 
 """
    * By parent class, we meant that we create a hirarchy, an arrangement of 
@@ -32,6 +32,7 @@
      general, and those "lower" are more specific, specialization.                          
                               
 """
+
 
 
 ##############################################################################
@@ -104,12 +105,40 @@
      - Inheritance allows a group of developers to share codes, as well as 
        create new code, in a consistent, unified manner!
 """
+##############################################################################
+##  "object" class
+"""
+   * Every class in Python is descended from the object class.
+   * If no inheritance is specified when a class is defined, its superclass 
+     is object by default.
+   * All methods defined in the object class are special methods.
+     - __new__() method
+       . This is automatically invoked when an object is constructed. 
+       . This method then invokes the __init__() method to initialize the 
+         object. 
+       . Normally you should only override the __init__() method to 
+         initialize the data fields defined in the new class.
+    
+     - __str__() method 
+       . It returns a string description for the object. 
+       . By default, it returns a string consisting of a class name of which 
+         the object is an instance and the object’s memory address in 
+         hexadecimal format.
+       . Usually you should override the __str__() method so that it returns 
+         an informative description for the object.
+    - __eq__(other) method 
+      . It returns True if two objects are the same. 
+      . So, x.__eq__(x) is True, but x.__eq__(y) returns False, because 
+        x and y are two different objects even though they may have the 
+        same contents.
+"""
 
 ##############################################################################
 ##  Inheritance issues
 """
    * Unbound methods
 """
+
 
 
 
@@ -124,6 +153,7 @@
 """
 
 ##  We determine what instance to pass to method
+
 
 
 ##############################################################################
@@ -143,5 +173,35 @@
 """
 ##----------------------------------------------------------------------------
 
+
+
+
+##############################################################################
+##  Polymorphism and Dynamic Binding
+"""
+   * Polymorphism means that an object of a subclass can be passed to a 
+     parameter of a superclass type. 
+   * A method may be implemented in several classes along the inheritance 
+     chain. 
+     - Python decides which method is invoked at runtime. 
+     - This is known as dynamic binding.
+"""
+
+##--------- GeometricObject.py -----------------------------------------------
+
+
+
+
+##-------- CircleFromGeometricObject.py --------------------------------------
+
+
+        
+        
+##------ RectangleFromGeometricObject.py -----------------------------------
+
+
+
+
+##---------- PolymorphismDemo.py ----------------------------------------------------
 
 
